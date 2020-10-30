@@ -18,7 +18,7 @@ To answer the STD requirements, the maven dynamic-feature-plugin operate in two 
 				<executions>
 					<execution>
 						<goals>
-							<goal>feature-dynamic-resolver</goal>
+							<goal>feature-dynamic-adapter</goal>
 						</goals>
 					</execution>
 				</executions>
@@ -42,7 +42,7 @@ In the clean phase the plugin will generate a .cfg file and store it in src/main
 				<executions>
 					<execution>
 						<goals>
-							<goal>feature-dynamic-adapter</goal>
+							<goal>feature-dynamic-resolver</goal>
 						</goals>
 					</execution>
 				</executions>
